@@ -1,2 +1,11 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
-
+:root {
+    --color-black: #000;
+    --color-gray: #a6a6a6;
+    --color-light-gray: #cdcdcd;
+    --color-white: #fff;
+    --color-dark-secondary: #2e2e2e;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
