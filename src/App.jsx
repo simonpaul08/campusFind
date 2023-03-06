@@ -4,7 +4,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Vite React App</h1>
+      <h1>CampusFind</h1>
     </div>
   )
 }
