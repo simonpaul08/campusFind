@@ -48,7 +48,7 @@ const MyPostWidget = ({ picturePath }) => {
 
     console.log(formData);
 
-    const response = await fetch(`http://localhost:3001/posts`, {
+    const response = await fetch(`${process.env.REACT_APP_API_URL}posts`, {
       method: "POST",
       body: formData,
     });

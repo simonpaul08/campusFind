@@ -16,7 +16,7 @@ const ProfilePage = () => {
 
   const getUser = async () => {
     try {
-      const response = await fetch(`http://localhost:3001/users/${userId}`, {
+      const response = await fetch(`${process.env.REACT_APP_API_URL}users/${userId}`, {
         method: "GET",
       });
       const data = await response.json();
